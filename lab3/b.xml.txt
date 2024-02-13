@@ -1,0 +1,7 @@
+<!DOCTYPE Books [
+  <!ELEMENT Books (Book+)>
+  <!ELEMENT Book (Isbn, Title, Author)>
+  <!ELEMENT Isbn (#PCDATA)>
+  <!ELEMENT Title (#PCDATA)>
+  <!ELEMENT Author (#PCDATA)>
+]>
